@@ -4,12 +4,46 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #256EEB;
+}
 .container {
   margin: auto;
   max-width: 80%;
 }
+header {
+  margin-top: 40px;
+}
 .navigation {
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.leftSideNavigation {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 5px;
+}
+nav {
+  display: flex;
+}
+.navElement {
+  margin-left: 15px;
+}
+.realButton {
+  margin-left: 25px;
+  padding: 10px 15px;
+  color: white;
+  background-color: #256EEB;
+  border: none;
+  border-radius: 5px;
 }
 
 /* Search */
